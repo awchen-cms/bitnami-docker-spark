@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "bitnami-docker-spark"
+version = "0.1.0"
+description = "Virtual Env for using Docker and Spark"
+authors = ["Aaron Chen <aaron.chen@cms.hhs.gov>"]
+
+[tool.poetry.dependencies]
+python = "3.6"
+scikit-learn = "^1.0.1"
+numpy = "^1.21.4"
+scipy = "^1.7.2"
+pyspark = "^3.2.0"
+matplotlib = "^3.5.0"
+seaborn = "^0.11.2"
+docker = "^5.0.3"
+jupyter = "^1.0.0"
+jupyterlab = "^3.2.4"
+notebook = "^6.4.6"
+pandas = "^1.3.4"
+pip = "^21.3.1"
+pyarrow = "^6.0.1"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.11b1", python = "3.6"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
