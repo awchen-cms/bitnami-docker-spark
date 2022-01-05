@@ -5,7 +5,7 @@ description = "Virtual Env for using Docker and Spark"
 authors = ["Aaron Chen <aaron.chen@cms.hhs.gov>"]
 
 [tool.poetry.dependencies]
-python = "3.6"
+python = "^3.8"
 scikit-learn = "^1.0.1"
 numpy = "^1.21.4"
 scipy = "^1.7.2"

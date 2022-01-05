@@ -11,6 +11,7 @@ services:
       - SPARK_SSL_ENABLED=no
     ports:
       - '8080:8080'
+<<<<<<< HEAD
       - '7077:7077'
   spark-worker-1:
     image: docker.io/bitnami/spark:3
@@ -24,6 +25,9 @@ services:
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - SPARK_SSL_ENABLED=no
   spark-worker-2:
+=======
+  spark-worker:
+>>>>>>> bca2376d4fc225ac07dc6d03d1e149c02269a04f
     image: docker.io/bitnami/spark:3
     environment:
       - SPARK_MODE=worker
